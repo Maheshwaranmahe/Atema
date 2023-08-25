@@ -44,7 +44,7 @@ html{
 .nav-item{
     margin-left: 10px;
 }
-.nav-item:hover{
+.nav-item a:hover{
     border: 1px solid var(--white);
     transition: 0.5s;
 }
@@ -406,10 +406,15 @@ footer .container{
 .social-icon{
     color: var(--white);
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 .social-icon i{
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.copyright p{
+    color: var(--white);
+    padding-bottom: 10px;
 }
 
 
